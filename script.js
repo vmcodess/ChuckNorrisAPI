@@ -11,13 +11,9 @@ const fetchJoke = () => {
             // 2. Display IMG
             let image = document.querySelector(".img");
             image.setAttribute("src", data.icon_url);
-    
-    
-    
         })
     })
 }
-
 
 // button addEventListener
 let button = document.querySelector(".button")
