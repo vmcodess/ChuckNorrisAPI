@@ -8,6 +8,13 @@ body
 {
     background-color: black; /* The page background will be black */
     color: white; /* The page text will be white */
+    position: relative;
+    height: 100%;
+}
+
+.container {
+    height: 15vh;
+    margin-bottom: 35vh;
 }
 
 .button {
@@ -17,5 +24,12 @@ body
 }
 
 .title {
-    margin-bottom: 20%;
+    margin-bottom: 25vh;
+}
+
+.footerDiv {
+    
+    text-align: center;
+    margin-top: 15%;
+    
 }
